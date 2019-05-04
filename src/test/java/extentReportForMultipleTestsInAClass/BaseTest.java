@@ -26,10 +26,10 @@ public void setUp()
     extent = new ExtentReports();
     extent.attachReporter(htmlReporter);
 
-    extent.setSystemInfo("OS", "Mac Sierra");
+    extent.setSystemInfo("OS", "Windows 10");
     extent.setSystemInfo("Host Name", "Test");
     extent.setSystemInfo("Environment", "QA");
-    extent.setSystemInfo("User Name", "Napendra Singh");
+    extent.setSystemInfo("QA Name", "Mutturaj Hulagabal");
 
     htmlReporter.config().setChartVisibilityOnOpen(true);
     htmlReporter.config().setDocumentTitle("Extent report");
